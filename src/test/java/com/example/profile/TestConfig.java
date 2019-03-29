@@ -19,6 +19,6 @@ public class TestConfig {
 
     @Test
     public void testConfig() {
-        assertThat("Testing profile in service", myComponent.getSomething(), is("dev"));
+        assertThat("Testing profile in service", myComponent.getSomething(), is("You are on default environment"));
     }
 }
